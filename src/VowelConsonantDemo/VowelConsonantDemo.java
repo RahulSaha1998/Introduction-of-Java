@@ -9,23 +9,30 @@ public class VowelConsonantDemo {
         System.out.print("Enter any letter :");
         ch = input.next().charAt(0);
 
-        if(ch =='a'){
-            System.out.println("Vowel");
-        }
-        else if(ch == 'e'){
-            System.out.println("Vowel");
-        }
-        else if(ch == 'i'){
-            System.out.println("Vowel");
-        }
-        else if(ch == 'o'){
-            System.out.println("Vowel");
-        }
-        else if(ch == 'u'){
+        // if(ch =='a'){
+        //     System.out.println("Vowel");
+        // }
+        // else if(ch == 'e'){
+        //     System.out.println("Vowel");
+        // }
+        // else if(ch == 'i'){
+        //     System.out.println("Vowel");
+        // }
+        // else if(ch == 'o'){
+        //     System.out.println("Vowel");
+        // }
+        // else if(ch == 'u'){
+        //     System.out.println("Vowel");
+        // }
+        // else{
+        //     System.out.println("Consonant");
+        // }
+
+        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u'){
             System.out.println("Vowel");
         }
         else{
-            System.out.println("Consonant");
+            System.out.println("consonant");
         }
     }
 }
