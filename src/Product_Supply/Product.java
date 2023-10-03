@@ -15,3 +15,13 @@ public class Product {
         System.out.println("Rating:" + rating);
     }
 }
+
+//constructor
+//getter setter
+//list, keys, map, arraylist, stream, hashmaps, and products - collection
+//getName()
+//setName()
+
+//Todays work flow
+//collection 
+//string
