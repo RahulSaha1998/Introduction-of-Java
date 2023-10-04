@@ -6,19 +6,36 @@ public class Test {
         Product p = new Product();
         Supply s = new Supply();
 
-        // Set Product Attributes
-        p.id = 1;
-        p.name = "Matador";
-        p.price = 10.0;
-        p.quantity = 7;
-        p.rating = 5.0;
+        // Products Attribute
+        p.setId(1);
+        p.setName("Text Book");
+        p.setPrice(25);
+        p.setQuantity(20);
+        p.setRating(4);
 
-        p.printProductDetails();
+        int id = p.getId();
+        String name = p.getName();
+        double price = p.getPrice();
+        int quantity = p.getQuantity();
+        double rating = p.getRating();
 
-        // Set Supply Attributes
-        s.id = 10;
-        s.name = "Dhaka";
-        s.printSupplyDetails();
+        System.out.println("Product id : " + id);
+        System.out.println("Name : " + name);
+        System.out.println("Price : " + price);
+        System.out.println("Quantity : " + quantity);
+        System.out.println("Rating : " + rating);
 
+
+
+
+        // Supplier Attribute
+        s.setId(3);
+        s.setName("Rahul");
+
+        int supplierId = s.getId();
+        String supplierName = s.getName();
+
+        System.out.println("Supplier id : " + supplierId);
+        System.out.println("Supplier Name : " + supplierName);
     }
 }
