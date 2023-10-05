@@ -52,6 +52,15 @@ public class Product {
         return rating;
     }
 
+    void displayProductInformation() {
+        System.out.println("Product id : " + id);
+        System.out.println("Name : " + name);
+        System.out.println("Price : " + price);
+        System.out.println("Quantity : " + quantity);
+        System.out.println("Rating : " + rating);
+        System.out.println("\n\n");
+    }
+
 }
 
 // constructor

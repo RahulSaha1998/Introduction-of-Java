@@ -1,41 +1,44 @@
 package Product_Supply;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Test {
     public static void main(String[] args) {
 
-        Product p = new Product();
-        Supply s = new Supply();
+        List<Product> productList = new ArrayList<Product>();
 
-        // Products Attribute
-        p.setId(1);
-        p.setName("Text Book");
-        p.setPrice(25);
-        p.setQuantity(20);
-        p.setRating(4);
+        // Create and add products to the list
+        Product p1 = new Product();
+        p1.setId(1);
+        p1.setName("Text Book");
+        p1.setPrice(25);
+        p1.setQuantity(20);
+        p1.setRating(4);
+        productList.add(p1);
 
-        int id = p.getId();
-        String name = p.getName();
-        double price = p.getPrice();
-        int quantity = p.getQuantity();
-        double rating = p.getRating();
+        Product p2 = new Product();
+        p2.setId(2);
+        p2.setName("Notebook");
+        p2.setPrice(5);
+        p2.setQuantity(50);
+        p2.setRating(4.5);
+        productList.add(p2);
 
-        System.out.println("Product id : " + id);
-        System.out.println("Name : " + name);
-        System.out.println("Price : " + price);
-        System.out.println("Quantity : " + quantity);
-        System.out.println("Rating : " + rating);
-
-
+        // Display information for all products in the list
+        for (Product product : productList) {
+            product.displayProductInformation();
+        }
 
 
         // Supplier Attribute
-        s.setId(3);
-        s.setName("Rahul");
+        Supply s1 = new Supply();
+        s1.setId(3);
+        s1.setName("Rahul");
+        s1.displaySupplierInformation();
 
-        int supplierId = s.getId();
-        String supplierName = s.getName();
-
-        System.out.println("Supplier id : " + supplierId);
-        System.out.println("Supplier Name : " + supplierName);
     }
 }
+
+
+//constructor

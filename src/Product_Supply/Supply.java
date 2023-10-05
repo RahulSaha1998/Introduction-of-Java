@@ -1,8 +1,8 @@
 package Product_Supply;
 
 public class Supply {
-    int id;
-    String name;
+    private int id;
+    private String name;
 
     // Get and Set for id
     public void setId(int id) {
@@ -20,5 +20,10 @@ public class Supply {
 
     public String getName() {
         return name;
+    }
+
+    void displaySupplierInformation() {
+        System.out.println("Supplier id : " + id);
+        System.out.println("Supplier Name : " + name);
     }
 }
