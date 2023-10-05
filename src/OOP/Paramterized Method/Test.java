@@ -8,11 +8,11 @@ public class Test {
         // teacher1.name = "Rahul Saha";
         // teacher1.gender = "male";
         // teacher1.phone = 017201;
-        teacher1.setInformation("Rahul saha", "male", 172987972);
+        teacher1.setInformation("Rahul saha", "male", 01722);
         teacher1.displayInformation();
 
-        teacher2.setInformation("Jack Saha", "male", 1289128912);
-        teacher2.displayInformation(); 
+        teacher2.setInformation("Jack Saha", "male", 0445454);
+        teacher2.displayInformation();
 
     }
 }
