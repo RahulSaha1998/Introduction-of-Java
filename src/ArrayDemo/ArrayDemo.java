@@ -10,9 +10,10 @@ public class ArrayDemo {
         number[4] = 50;
 
         int len = number.length;
-        System.out.println("Array Size: "+len);
+        System.out.println("Array Size: " + len);
 
-        int sum = number[0] + number[1]+ number[2]+ number[3]+ number[4];
-        System.out.println("Sum = "+ sum);
+        int sum = number[0] + number[1] + number[2] + number[3] + number[4];
+        System.out.println("Sum = " + sum);
+
     }
 }
