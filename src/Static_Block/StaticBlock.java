@@ -4,7 +4,7 @@ public class StaticBlock {
     static int id;
     static String name;
 
-    //single static block
+    //single static block 
     static {
         id = 10;
         name = "rahul";
